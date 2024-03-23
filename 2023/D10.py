@@ -10,7 +10,7 @@ cfd = Path(__file__).parent.absolute()
 
 ## Read input
 with open(str(cfd)+'/data/test.txt', 'r') as f:
-# with open(str(cfd)+'/data/d10_input.txt', 'r') as f:
+# with open(str(cfd)+'/data/D10_input.txt', 'r') as f:
     mapipes = f.read().split('\n')[:-1] # empty line in the end
     mapipes = [[v for v in l] for l in mapipes]
     # mapipes = np.array([np.array([v for v in l]) for l in mapipes])

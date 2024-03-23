@@ -8,7 +8,7 @@ import re
 cfd = Path(__file__).parent.absolute()
 
 ## Read input
-f = open(str(cfd)+'/data/d9_input.txt', 'r')
+f = open(str(cfd)+'/data/D09_input.txt', 'r')
 lines = f.readlines()
 
 xp_right = 0 # sum of right-extrapolated values

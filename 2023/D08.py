@@ -9,7 +9,7 @@ import numpy as np
 cfd = Path(__file__).parent.absolute()
 
 ## Read input
-f = open(str(cfd)+'/data/d8_input.txt', 'r')
+f = open(str(cfd)+'/data/D08_input.txt', 'r')
 lines = f.readlines()
 
 nav = lines[0][:-1] # navigation

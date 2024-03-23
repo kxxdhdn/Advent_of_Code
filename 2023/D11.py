@@ -10,7 +10,7 @@ cfd = Path(__file__).parent.absolute()
 
 ## Read input
 # with open(str(cfd)+'/data/test.txt', 'r') as f:
-with open(str(cfd)+'/data/d11_input.txt', 'r') as f:
+with open(str(cfd)+'/data/D11_input.txt', 'r') as f:
     universe = f.read().split('\n')[:-1] # empty line in the end
     # universe = [[v for v in l] for l in universe]
     universe = np.array([np.array([v for v in l]) for l in universe])

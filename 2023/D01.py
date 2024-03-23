@@ -8,7 +8,7 @@ import re
 cfd = Path(__file__).parent.absolute()
 
 ## Read input
-f = open(str(cfd)+'/data/d1_input.txt', 'r')
+f = open(str(cfd)+'/data/D01_input.txt', 'r')
 lines = f.readlines()
 
 ## Part one counts
