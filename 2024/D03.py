@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from pathlib import Path
-import pandas as pd
 import re
 
 ## Current file direction
