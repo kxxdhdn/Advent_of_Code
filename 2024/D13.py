@@ -3,7 +3,6 @@
 
 from pathlib import Path
 import re
-from math import gcd
 
 ## Current file direction
 cfd = Path(__file__).parent.absolute()
