@@ -17,7 +17,7 @@ dirs = (1, -1, 1j, -1j)
 G = nx.DiGraph()
 for i, row in enumerate(lines):
     for j, x in enumerate(row):
-        if x == "#":
+        if x=='#':
             continue
         z = i + 1j * j
         if x=='S':

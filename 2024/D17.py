@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from pathlib import Path
-from itertools import count
 
 ## Current file direction
 cfd = Path(__file__).parent.absolute()
